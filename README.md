@@ -223,7 +223,7 @@ An Example of how to run the program (with default 80-20 split of supplied datas
 
 Another Example: running the program with parameters used in CEC 2020 paper (fitting the function on entire data): [obj=mse, gen=200, muRate=0.10  penalty=0.1 nelder-mead:4:250:10 depth=4]:
 ```
-./bin/main  TestData/Argon.csv -T TestData/Argon.cs -g 200 -m 0.1 -d 0.1 -nm 4:250:10 -f 4 -v 2
+./bin/main -t TestData/Argon.csv -T TestData/Argon.csv -g 200 -m 0.1 -d 0.1 -nm 4:250:10 -f 4 -v 2
 ```
 
 ## Data Format
